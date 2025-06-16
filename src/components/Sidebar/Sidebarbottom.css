@@ -1,0 +1,27 @@
+.sidebarbottom .recent-entry{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 50px;
+    color: #282828;
+    cursor: pointer;
+}
+.sidebarbottom .recent-entry:hover{
+    background-color: #e2e6eb;
+}
+
+.sidebarbottom img{
+    width: 20px;
+}
+
+.sidebarbottom .bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarbottom .bottom-item{
+    padding-right: 10px;
+    cursor: pointer;
+}
